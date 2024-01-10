@@ -1,2 +1,2 @@
-# leetcode
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+# leetcode practice
+My collection of Leetcode Blind 75
