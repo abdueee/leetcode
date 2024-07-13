@@ -7,9 +7,9 @@ class Solution:
         right = len(s) - 1
         
         while left<right:
-            while left < len(s) and s[left] not in vowels:
+            while left < right and s[left] not in vowels:
                 left +=1
-            while  right >= 0 and s[right] not in vowels:
+            while  left<right and s[right] not in vowels:
                 right -= 1
             if left<right:
                 temp = s[left]
@@ -20,4 +20,3 @@ class Solution:
         
         return ''.join(s)
                 
-        
